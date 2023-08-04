@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    font-family: sans-serif
+}
+body{
+    background-image: url(background.jpg);
+    background-size: cover;
+}
+
+#container{
+    width: 70%;
+    margin: auto;
+    margin-top: 20px;
+    box-sizing: border-box;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 5% 5% 5% 5%;
+    border-radius: 3%;
+}
+
+/* HEADER  */
+header > div{
+    width: 50%;
+    margin: auto;
+}
+
+#logo-pic{
+    width: 50%;
+    margin-left: 25%;
+}
+
+div > h1 {
+    font-size: 28px;
+    color: rgb(85, 208, 33);
+}
+/* NAV  */
+nav{
+    background-color:  rgb(85, 208, 33);
+    text-align: center;
+    margin: 2% 0 2% 0;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+/* MAIN  */
+main{
+    color: white;
+}
+
+.Monopattino{
+    margin: 2% 0 2% 0;
+}
+
+.text-mono{
+   width: 100%; 
+}
+
+.elements-mono{
+    display: inline-block;
+    margin: 5px 5px;
+    margin-left: 0;
+    margin-right: 0;
+    }
+
+.description{
+    margin: 5px 5px;
+    margin-left: 0;
+}
+
+.energy-bar{
+    width: 100%;
+}
+
+#energy-Gino{
+    width: 40%;
+    background-color: orange;
+    border: 1px solid orange;
+    height: 24px;
+    border-radius: 3px;
+}
+
+
+#energy-Mike24{
+    width: 80%;
+    background-color: green;
+    border: 1px solid green;
+    height: 24px;
+    border-radius: 3px;
+}
+
+#energy-Fede154{
+    width: 20%;
+    background-color: red;
+    border: 1px solid red;
+    height: 24px;
+    border-radius: 3px;
+}
